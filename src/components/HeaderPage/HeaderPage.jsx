@@ -7,7 +7,6 @@ const HeaderPage = () => {
     <div>
       {/* Mobile */}
       <div className="flex justify-between items-center bg-white shadow-lg h-12 px-8 lg:hidden">
-        <Link href="/">Lamps</Link>
         <Link href="/">
           <Image src="/logoonly.png" width={50} height={50} />
         </Link>
@@ -17,9 +16,9 @@ const HeaderPage = () => {
       {/* Ipad */}
       <div className="justify-between items-center bg-white h-24  hidden lg:flex shadow-lg">
         <Link className="text-[18px] font-[600] px-10" href="/">
-          Lamps
+          <img src="/logoonly.png" width={90} height={90} />
         </Link>
-        <Image src="/logoonly.png" width={70} height={70} />
+
         <div className="flex justify-around items-center h-24">
           <Link className="mr-5 text-[18px] font-[600]" href="/">
             Home

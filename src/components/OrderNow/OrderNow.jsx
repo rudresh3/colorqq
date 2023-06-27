@@ -3,7 +3,7 @@ import React from 'react'
 
 const OrderNow = () => {
   return (
-    <div className="px-7 py-12 md:flex md:justify-between items-center lg:px-[10rem] ">
+    <div className="px-7 py-12 md:flex md:justify-between items-center lg:px-[10rem] lg:h-screen">
       <div className="flex flex-col md:w-[75%] lg:w-[50%]">
         <div className="">
           <p className="text-[20px] font-medium text-gray-600 lg:text-[24px] lg:font-semibold">

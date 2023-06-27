@@ -23,7 +23,7 @@ const ulim = [
 
 const Testimonials = () => {
   return (
-    <div className="px-7 bg-gradient-to-b from-indigo-950 to-red-400 py-4">
+    <div className="px-7 bg-gradient-to-b from-indigo-950 to-red-400 py-4 lg:h-screen">
       <div className="py-12 md:flex md:justify-center md:items-center flex-col ">
         <div className="">
           <p className="text-[18px] font-medium pb-4 text-[#fff] md:text-center">

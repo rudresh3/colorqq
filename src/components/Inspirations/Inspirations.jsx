@@ -61,10 +61,10 @@ const Inspirations = () => {
             voluptates kjebf aosh
           </p>
         </div>
-        <div className="flex items-center justify-between mt-4 md:justify-center  text-left ">
+        <div className="flex items-center justify-center mt-4 md:justify-center text-left ">
           {inspiData.map((data) => (
             <div className="flex flex-col justify-center w-full text-center items-center md:flex-row  md:items-left lg:flex-row lg:items-center  lg:gap-8 lg:w-52">
-              <img src={data.img} className="mb-2 w-[50px] h-[50px]" />
+              <img src={data.img} className="mb-2 w-[40px] h-[40px]" />
               <p className=" text-center md:text-left w-32 pl-0 md:pl-4">
                 {data.text}
               </p>
